@@ -44,8 +44,7 @@ body
 
 #content
 {
-    margin         : 0 auto;
-    color          : #987cb0;
+    margin : 0 auto;
     /*mix-blend-mode : overlay;
     opacity: 0.5;*/
 }
@@ -78,6 +77,7 @@ body
     vertical-align : top;
     padding-left   : 20pt;
     line-height    : 1.2;
+    color          : #82609f;
     opacity        : 0.9;
     /*color          : #191e44;*/
 }
@@ -101,6 +101,7 @@ body
     font-size      : 32pt;
     text-align     : right;
     text-transform : uppercase;
+    color          : #987cb0;
     opacity        : 0.7;
 }
 
