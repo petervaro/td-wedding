@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+html
+{
+    -webkit-background-size : cover;
+    -moz-background-size    : cover;
+    -o-background-size      : cover;
+    background-size         : cover;
+    background-repeat       : no-repeat;
+    background: -webkit-linear-gradient(
+        top, #b4cecb 0%,#d1b0c1 30%,#cdbfc5 42%,#eaefed 100%);
+    background: -moz-linear-gradient(
+        top, #b4cecb 0%, #d1b0c1 30%, #cdbfc5 42%, #eaefed 100%);
+    background: -ms-linear-gradient(
+        top, #b4cecb 0%, #d1b0c1 30%, #cdbfc5 42%, #eaefed 100%);
+    background: -o-linear-gradient(
+        top, #b4cecb 0%, #d1b0c1 30%, #cdbfc5 42%, #eaefed 100%);
+    background: linear-gradient(
+        to bottom, #b4cecb 0%,#d1b0c1 30%,#cdbfc5 42%,#eaefed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr='#b4cecb', endColorstr='#eaefed',GradientType=0 );
+}
+
+html,
+body
+{
+    height : 100%;
+}
+
+#layout
+{
+    height  : 100%;
+    width   : 100%;
+    display : table;
+}
+
+#container
+{
+    vertical-align : middle;
+    display        : table-cell;
+    height         : 100%;
+}
+
+#content
+{
+    margin : 0 auto;
+}
+
+#invitation,
+#greetings,
+#signature
+{
+    color          : #22295c; /* #a584b2; */
+    mix-blend-mode : overlay;
+    text-transform : uppercase;
+}
+
+#invitation
+{
+    width          : 72pt;
+    font-family    : 'EB Garamond', serif;
+    font-size      : 16pt;
+    text-align     : left;
+    vertical-align : top;
+    padding-left   : 20pt;
+}
+
+#greetings,
+#signature
+{
+    font-family    : 'Rubik', sans-serif;
+    font-size      : 32pt;
+    text-align     : right;
+}
+
+#greetings
+{
+    position : relative;
+    top      : -2pt;
+}
+
+#signature
+{
+    position       : relative;
+    bottom         : -4pt;
+    vertical-align : bottom;
+}
