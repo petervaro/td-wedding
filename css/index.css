@@ -69,7 +69,7 @@ body
 
 #invitation
 {
-    width          : 72pt;
+    /*width          : 80pt;*/
     font-family    : 'EB Garamond', serif;
     font-variant   : small-caps;
     font-size      : 14pt;
