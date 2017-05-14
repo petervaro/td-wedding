@@ -44,34 +44,64 @@ body
 
 #content
 {
-    margin : 0 auto;
+    margin         : 0 auto;
+    color          : #987cb0;
+    /*mix-blend-mode : overlay;
+    opacity: 0.5;*/
 }
 
-#invitation,
-#greetings,
-#signature
+#logo
 {
-    color          : #22295c; /* #a584b2; */
-    mix-blend-mode : overlay;
-    text-transform : uppercase;
+    vertical-align : middle;
+    height         : 400pt;
+}
+
+#logo img
+{
+    display      : block;
+    padding-left : 30pt;
+    opacity      : 0.5;
+}
+
+#text
+{
+    vertical-align : middle;
 }
 
 #invitation
 {
     width          : 72pt;
     font-family    : 'EB Garamond', serif;
-    font-size      : 16pt;
+    font-variant   : small-caps;
+    font-size      : 14pt;
     text-align     : left;
     vertical-align : top;
     padding-left   : 20pt;
+    line-height    : 1.2;
+    opacity        : 0.9;
+    /*color          : #191e44;*/
+}
+
+#invitation a
+{
+    text-decoration : none;
+    color : #7489a3;
+}
+
+#invitation > p:not(:last-child)
+{
+    padding-bottom : 14pt;
 }
 
 #greetings,
 #signature
 {
     font-family    : 'Rubik', sans-serif;
+    /*color          : #22295c; // #a584b2; */
     font-size      : 32pt;
     text-align     : right;
+    text-transform : uppercase;
+    opacity        : 0.7;
 }
 
 #greetings
@@ -83,6 +113,6 @@ body
 #signature
 {
     position       : relative;
-    bottom         : -4pt;
+    bottom         : -2pt;
     vertical-align : bottom;
 }
