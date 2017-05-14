@@ -9,15 +9,15 @@ html
     background-size         : cover;
     background-repeat       : no-repeat;
     background: -webkit-linear-gradient(
-        top, #b4cecb 0%,#d1b0c1 30%,#cdbfc5 42%,#eaefed 100%);
+        top, #b4cecb 0%,#d1b0c1 45%,#cdbfc5 60%,#eaefed 100%);
     background: -moz-linear-gradient(
-        top, #b4cecb 0%, #d1b0c1 30%, #cdbfc5 42%, #eaefed 100%);
+        top, #b4cecb 0%, #d1b0c1 45%, #cdbfc5 60%, #eaefed 100%);
     background: -ms-linear-gradient(
-        top, #b4cecb 0%, #d1b0c1 30%, #cdbfc5 42%, #eaefed 100%);
+        top, #b4cecb 0%, #d1b0c1 45%, #cdbfc5 60%, #eaefed 100%);
     background: -o-linear-gradient(
-        top, #b4cecb 0%, #d1b0c1 30%, #cdbfc5 42%, #eaefed 100%);
+        top, #b4cecb 0%, #d1b0c1 45%, #cdbfc5 60%, #eaefed 100%);
     background: linear-gradient(
-        to bottom, #b4cecb 0%,#d1b0c1 30%,#cdbfc5 42%,#eaefed 100%);
+        to bottom, #b4cecb 0%,#d1b0c1 45%,#cdbfc5 60%,#eaefed 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(
         startColorstr='#b4cecb', endColorstr='#eaefed',GradientType=0 );
 }
@@ -75,7 +75,7 @@ body
     font-size      : 14pt;
     text-align     : left;
     vertical-align : top;
-    padding-left   : 20pt;
+    padding-left   : 26pt;
     line-height    : 1.2;
     color          : #82609f;
     opacity        : 0.9;
