@@ -52,7 +52,7 @@ def asciify(bytes):
         REPLACE.get(c.encode('utf-8'), c) for c in bytes.decode('utf-8'))
 
 with open('invitation-front-prototype.svg') as src:
-    source = src.read()
+    src = src.read()
     for names in NAMES:
         tspans = []
         for row, name, mark in zip(ROWS, names, ','*(len(names) - 1) + '!'):
@@ -60,4 +60,17 @@ with open('invitation-front-prototype.svg') as src:
         output = OUTPUT.format('-'.join(map(asciify, names))).replace(' ', '-')
         print('Writing to file:', output)
         with open(output, 'w') as dst:
-            dst.write(source.format(NAMES=''.join(tspans)))
+            dst.write(src.format(NAMES=''.join(tspans)))
+
+OUTPUT = 'svg/invitation-back-{}.svg'
+
+DATES = {'wedding' : '2017. július 27.',
+         'party'   : '2017. augusztus 20.'}
+
+with open('invitation-back-prototype.svg') as src:
+    src = src.read()
+    for name, date in DATES.items():
+        output = OUTPUT.format(name)
+        print('Writing to file:', output)
+        with open(output, 'w') as dst:
+            dst.write(src.format(DATE=date))
